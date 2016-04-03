@@ -16,7 +16,7 @@ class RdrSpider(scrapy.Spider):
     name = "rdr"
     start_urls=[]
     allowed_domains = ["psychoactif.org"]
-    postcodelist=pickle.load(open('/home/pgicquel/villeEx','rb'))
+    postcodelist=pickle.load(open('villeEx.txt','rb'))
     for code in postcodelist :
         start_urls.append('https://www.psychoactif.org/forum/ou-trouver-des-seringues.php?a=' + code)
     print start_urls    
