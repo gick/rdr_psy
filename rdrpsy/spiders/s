@@ -1,0 +1,52 @@
+Help on Selector in module scrapy.selector.unified object:
+
+class SSeelleeccttoorr(scrapy.utils.trackref.object_ref)
+ |  Method resolution order:
+ |      Selector
+ |      scrapy.utils.trackref.object_ref
+ |      __builtin__.object
+ |  
+ |  Methods defined here:
+ |  
+ |  ____iinniitt____(self, response=None, text=None, type=None, namespaces=None, _root=None, _expr=None)
+ |  
+ |  ____nnoonnzzeerroo____(self)
+ |  
+ |  ____rreepprr____ = __str__(self)
+ |  
+ |  ____ssttrr____(self)
+ |  
+ |  ccssss(self, query)
+ |  
+ |  eexxttrraacctt(self)
+ |  
+ |  eexxttrraacctt__uunnqquuootteedd(*args, **kwargs)
+ |  
+ |  rree(self, regex)
+ |  
+ |  rreeggiisstteerr__nnaammeessppaaccee(self, prefix, uri)
+ |  
+ |  rreemmoovvee__nnaammeessppaacceess(self)
+ |  
+ |  sseelleecctt(*args, **kwargs)
+ |  
+ |  xxppaatthh(self, query)
+ |  
+ |  ----------------------------------------------------------------------
+ |  Data descriptors defined here:
+ |  
+ |  ____wweeaakkrreeff____
+ |      list of weak references to the object (if defined)
+ |  
+ |  nnaammeessppaacceess
+ |  
+ |  rreessppoonnssee
+ |  
+ |  tteexxtt
+ |  
+ |  ttyyppee
+ |  
+ |  ----------------------------------------------------------------------
+ |  Static methods inherited from scrapy.utils.trackref.object_ref:
+ |  
+ |  ____nneeww____(cls, *args, **kwargs)
